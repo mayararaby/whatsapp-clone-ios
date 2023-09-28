@@ -1,4 +1,4 @@
-/* .mainpage{
+/* .mainPage{
   height: 150vh;
 } */
 
@@ -30,4 +30,37 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+}
+
+.notification{
+  position: absolute;
+  left: 15px;
+  color: #fff;
+  background-color: #EC4324;
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  padding: 1px;
+}
+
+.iconsGroup{
+  position: relative
+}
+
+.news{
+  width: 10px;
+  left: 15px;
+  display: inline-block;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  background-color: #0878F6;
+
+}
+.chats{
+  overflow-y: scroll;
+  min-height: calc(100vh - 50px);
 }
