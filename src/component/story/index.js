@@ -20,9 +20,9 @@ export const Story = () => {
       </div>
       <div className='myStory'>
         <div className='status-info-container'>
-          <div>
-            <img src={me} className='userImage' />
-            {/* <icon /> */}
+          <div className='user-add-story'>
+            <img src={me} className='userImage' alt='useImage' />
+            <StoryIcon.AddStoryIcon />
           </div>
           <div>
             <div className='myStatus-header'>
@@ -57,25 +57,8 @@ export const Story = () => {
               <div className='user-story user-story-padding '>
 
                 <div className=''>
-                  <img src={user.imageUrl} className='userImage story-number' />
+                  <img src={user.imageUrl} alt='userImage' className='userImage story-number' />
                 </div>
-                {/* <div className="dashed-border" style={{ position: 'relative', borderWidth: '1px' }}>
-                  <div
-                    className="dashed-border-inner"
-                    style={{
-                      position: 'absolute',
-                      top: 0,
-                      left: 0,
-                      width: '100%',
-                      height: '100%',
-                      borderWidth: 0,
-                      borderStyle: 'dashed',
-                      borderImage: `repeating-linear-gradient(0deg, #000, #000 ${user.storyNumber}px, transparent ${user.storyNumber}px, transparent ${user.storyNumber * 2}px)`
-                    }}
-                  >
-                    <img src={user.imageUrl} className="userImage" alt="User Image" />
-                  </div>
-                </div> */}
                 <div className='status-info-container-user'>
                   <div className='fullyWidth'>
                     <div className='myStatus-header'>
