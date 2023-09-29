@@ -2,7 +2,7 @@ import React from "react"
 
 export const StatusSvg = (props) => {
   const {isActive} = props
-  console.log("🚀 ~ file: footerIcons.js:5 ~ StatusSvg ~ isActive:", isActive)
+
   return (
     <svg className="footerIcons" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -18,7 +18,6 @@ export const StatusSvg = (props) => {
 
 export const CallsSvg = (props) => {
   const {isActive} = props
-  console.log("🚀 ~ file: footerIcons.js:21 ~ CallsSvg ~ isActive:", isActive)
 
   return (
     <svg className="footerIcons" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +32,6 @@ export const CallsSvg = (props) => {
 
 export const GroupSvg = (props) => {
   const {isActive} = props
-  console.log("🚀 ~ file: footerIcons.js:36 ~ GroupSvg ~ isActive:", isActive)
 
   return (
     <svg className="footerIcons" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +51,6 @@ export const GroupSvg = (props) => {
 
 export const ChatsSvg = (props) => {
   const {isActive} = props
-  console.log("🚀 ~ file: footerIcons.js:56 ~ ChatsSvg ~ isActive:", isActive)
 
   return (
     <svg className="footerIcons" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#000000">
@@ -69,7 +66,6 @@ export const ChatsSvg = (props) => {
 
 export const SettingsSvg = (props) => {
   const {isActive} = props
-  console.log("🚀 ~ file: footerIcons.js:72 ~ SettingsSvg ~ isActive:", isActive)
 
   return (
     <svg className="footerIcons" fill={`${isActive?"#0878F6":"#989697"}`} viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke={`${isActive?"#0878F6":"#989697"}`}>

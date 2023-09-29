@@ -22,7 +22,7 @@ export const Story = () => {
         <div className='status-info-container'>
           <div className='user-add-story'>
             <img src={me} className='userImage' alt='useImage' />
-            <StoryIcon.AddStoryIcon />
+            <StoryIcon.AddStoryIcon className={"add-new-story"} />
           </div>
           <div>
             <div className='myStatus-header'>

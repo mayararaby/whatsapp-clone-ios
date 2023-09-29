@@ -5,7 +5,8 @@ import Atef from '../assetes/users/3.JPG'
 import bta3Elmosab2a from '../assetes/users/4.JPG'
 import lemby from '../assetes/users/5.JPG'
 import Ashoor from '../assetes/users/6.jpg'
-
+import iti from '../assetes/communitiy/iti.png'
+import penta from '../assetes/communitiy/penta-b.png'
 export const messagesData = [
   {
     name:"Abo salah ebn el nazer",
@@ -76,5 +77,22 @@ export const messagesData = [
     received:false,
     unReadMesseagesNumber:0,
     hasStory:true
+  }
+]
+
+
+export const Communities = [
+  {name:"Penta-b",
+  imageUrl:penta
+
+  },
+  {
+    name:'ITI Aswan',
+    imageUrl:iti
+  },
+  {
+    name:'Frontend developers',
+  },{
+    name:'Whatsapp Community'
   }
 ]
