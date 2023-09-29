@@ -32,7 +32,7 @@ export const Chats = () => {
         <div className='chat-line-archive'></div>
       </div>
       <div className='chats'>
-        {messagesData?.length && messagesData.map(user => (
+        {messagesData?.length && messagesData.map((user, index) => (
           <div className='chatContainer'>
             <div className='firstSection-message-container'>
               <img src={user.imageUrl} alt='userImage' className='userImage' />

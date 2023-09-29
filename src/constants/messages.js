@@ -149,3 +149,66 @@ export const optionalSettings = [{
   icon:SettingsIcons.Friend,
   backgroundColor:'#F0335D'
 }]
+
+export const calling = [
+  {
+    name:"Abo salah ebn el nazer",
+    imageUrl :salah,
+    time:"8:57 PM",
+    callType:"call",
+    callingNumber:2,
+    isMissed:true,
+    type:"Missed"
+  },
+  {
+    name:"El-set Gwaher",
+    imageUrl :gawaher,
+    time:"1:45 PM",
+    callType:"call",
+    callingNumber:4,
+    isMissed:false,
+    type:"Outgoing"
+  },
+  {
+    name:"Abo fofa",
+    imageUrl :AboFofa,
+    time:"5:00 PM",
+    callType:"video",
+    callingNumber:5,
+    isMissed:true,
+    type:"Missed"
+  },
+  {
+    name:"Atef",
+    imageUrl :Atef,
+    time:"10:00 AM",
+    callType:"call",
+    callingNumber:2,
+    isMissed:false,
+    type:"Incoming"
+  }, {
+    name:"El-ragel bta3 el mosab2a",
+    imageUrl :bta3Elmosab2a,
+    time:"12:00 PM",
+    callType:"video",
+    callingNumber:0,
+    isMissed:true,
+    type:"Missed"
+  }, {
+    name:"El-lemby",
+    imageUrl :lemby,
+    time:"8:57 PM",
+    callType:"call",
+    callingNumber:2,
+    isMissed:false,
+    type:"Outgoing"
+  }, {
+    name:"El-nazer Ashoor",
+    imageUrl :Ashoor,
+    time:"7:00 Am",
+    callType:"call",
+    callingNumber:0,
+    isMissed:true,
+    type:"Missed"
+  }
+]

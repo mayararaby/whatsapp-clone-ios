@@ -1,0 +1,45 @@
+.Calls-header{
+  font-weight: 400;
+  font-size: 1.1em;
+  color:  #0878F6;
+}
+
+.Calls-link-icon{
+  width: 20px;
+    padding: 5px;
+}
+
+.call-type-icons{
+  width:25px ;
+  margin-inline-end: 5px;
+}
+
+
+.calls-type{
+  display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.calling-container{
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.missedCallName{
+color:  #EC4324;;
+}
+.calls-information-time{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+.time-information-margin{
+  margin-inline: 5px;
+}

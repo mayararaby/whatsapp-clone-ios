@@ -5,9 +5,6 @@ import './index.css'
 import { settingsUser, settingsChat, generalSettings, optionalSettings } from '../../constants/messages'
 import { SeeAllIcon } from '../groups/GroupsIcons'
 export const Settings = () => {
-  console.log("🚀 ~ file: index.js:6 ~ settingsUser:", settingsUser)
-
-
   return (
     <>
       <div className='main-edit'>

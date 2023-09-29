@@ -8,7 +8,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
 }
 
 .main-edit,
@@ -66,7 +66,7 @@
   border-radius: 50%;
   background-color: #F2F1F6;
   display: inline-block;
-  margin-inline: 2px;
+  margin-inline: 5px;
 }
 
 .add-new-story-icons {
