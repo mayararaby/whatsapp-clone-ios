@@ -14,7 +14,8 @@ export const messagesData = [
     lastMessage:"موتسيكلات وعجل ترابيزات بلياردو وبينج",
     send:false,
     received:true,
-    unReadMesseagesNumber:2
+    unReadMesseagesNumber:2,
+    hasStory:true
   },
   {
     name:"El-set Gwaher",
@@ -23,7 +24,8 @@ export const messagesData = [
     lastMessage:"اطلع يا عاشور",
     send:false,
     received:true,
-    unReadMesseagesNumber:5
+    unReadMesseagesNumber:5,
+    hasStory:false
   },
   {
     name:"Abo fofa",
@@ -33,7 +35,8 @@ export const messagesData = [
     send:true,
     isRead:true,
     received:false,
-    unReadMesseagesNumber:0
+    unReadMesseagesNumber:0,
+    hasStory:true
   },
   {
     name:"Atef",
@@ -42,7 +45,8 @@ export const messagesData = [
     lastMessage:"أنت يا حيوان يا متخلف انت يا اطرش",
     send:false,
     received:true,
-    unReadMesseagesNumber:4
+    unReadMesseagesNumber:4,
+    hasStory:true
   }, {
     name:"El-ragel bta3 el mosab2a",
     imageUrl :bta3Elmosab2a,
@@ -51,7 +55,8 @@ export const messagesData = [
     send:true,
     isRead:false,
     received:false,
-    unReadMesseagesNumber:0
+    unReadMesseagesNumber:0,
+    hasStory:true
   }, {
     name:"El-lemby",
     imageUrl :lemby,
@@ -59,7 +64,8 @@ export const messagesData = [
     lastMessage:"ايه دا مين ابو صلاح ابن الناظر ! دا الدنيا ضيقه يا جدعان",
     send:false,
     received:true,
-    unReadMesseagesNumber:1
+    unReadMesseagesNumber:1,
+    hasStory:false
   }, {
     name:"El-nazer Ashoor",
     imageUrl :Ashoor,
@@ -68,6 +74,7 @@ export const messagesData = [
     send:true,
     isRead:true,
     received:false,
-    unReadMesseagesNumber:0
+    unReadMesseagesNumber:0,
+    hasStory:true
   }
 ]

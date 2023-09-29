@@ -35,7 +35,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='page'>
         <div className='mainPage'>
           {React.createElement(tabsTypes[ActiveComponent], {})}
         </div>

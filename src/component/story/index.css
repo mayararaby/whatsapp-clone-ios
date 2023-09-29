@@ -1,0 +1,117 @@
+.editIcons {
+  width: 25px;
+  margin-inline: 5px;
+
+}
+
+.story-options-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.main-edit {
+  background-color: #F2F1F6;
+}
+
+.myStory {
+  border-top: 1px solid #E8E8E8;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.user-story-line,
+.myStory {
+  border-bottom: 1px solid #E8E8E8;
+
+}
+.user-story-line{
+  /* margin-inline-start: 30px; */
+}
+.myStory {
+  background-color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 13%;
+  padding-inline: 20px;
+}
+
+.recent-update-title,
+.subStatusAdd {
+
+  color: #989697;
+}
+
+.recent-update-title {
+  margin: 20px;
+  font-size: 15px;
+}
+
+.subStatusAdd {
+  font-weight: 400;
+}
+
+.add-new-story-icons-background {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F2F1F6;
+  display: inline-block;
+  margin-inline: 2px;
+}
+
+.add-new-story-icons {
+  width: 20px;
+  margin: 5px;
+}
+
+.myStatus-header {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.status-info-container,
+.status-info-container-user {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* width: 100%; */
+
+}
+.status-info-container-user{
+  width: 75%;
+}
+.user-story{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  height: 13%;
+  padding-inline: 20px;
+}
+.user-story-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-edit {
+  height: 90%;
+  overflow-y: scroll;
+}
+
+
+.story-number{
+  border-style: dashed;
+  border-color: #0878F6
+}
+

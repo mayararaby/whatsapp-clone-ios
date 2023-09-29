@@ -1,7 +1,9 @@
 import React from 'react'
+import { NotWorking } from '../NotWorking/NotWorking'
 
 export const Calls = () => {
   return (
-    <div>Calls</div>
-  )
+    <>
+      <NotWorking />
+    </>)
 }

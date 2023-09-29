@@ -1,7 +1,9 @@
 import React from 'react'
-
+import { NotWorking } from '../NotWorking/NotWorking'
 export const Groups = () => {
   return (
-    <div>Groups</div>
+    <>
+      <NotWorking />
+    </>
   )
 }
