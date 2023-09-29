@@ -7,6 +7,7 @@ import lemby from '../assetes/users/5.JPG'
 import Ashoor from '../assetes/users/6.jpg'
 import iti from '../assetes/communitiy/iti.png'
 import penta from '../assetes/communitiy/penta-b.png'
+import * as SettingsIcons from '../assetes/settings/icons'
 export const messagesData = [
   {
     name:"Abo salah ebn el nazer",
@@ -96,3 +97,55 @@ export const Communities = [
     name:'Whatsapp Community'
   }
 ]
+
+
+export const settingsUser = [
+  {
+    name:'Avatar',
+    icon:SettingsIcons.User,
+    backgroundColor:'#3E75F6'
+  }
+]
+
+export const settingsChat = [
+  {
+  name:'Starred Messages',
+  icon:SettingsIcons.Star,
+  backgroundColor:'#FFC605'
+}, {
+  name:'Linked Devices',
+  icon:SettingsIcons.Laptop,
+  backgroundColor:'#0DA9B9'
+}]
+
+export const generalSettings = [{
+  name:'Account',
+  icon:SettingsIcons.Key,
+  backgroundColor:'#0078FF'
+},{
+  name:'Privacy',
+  icon:SettingsIcons.Lock,
+  backgroundColor:'#32AADF'
+},{
+  name:'Chats',
+  icon:SettingsIcons.WhatsApp,
+  backgroundColor:'#48DA5E'
+},{
+  name:'Notifications',
+  icon:SettingsIcons.Notification,
+  backgroundColor:'#FC3B3C'
+},{
+  name:'Storage and Data',
+  icon:SettingsIcons.Storage,
+  backgroundColor:'#39C656'
+}]
+
+export const optionalSettings = [{
+  name:'Help',
+  icon:SettingsIcons.Help,
+  backgroundColor:'#0074FF'
+},{
+  name:'Tell a Friend',
+  icon:SettingsIcons.Friend,
+  backgroundColor:'#F0335D'
+}]

@@ -62,7 +62,7 @@ export const Groups = () => {
                         See All
                       </div>
                       <div>
-                        <Icons.seeAllIcon />
+                        <Icons.SeeAllIcon />
                       </div>
                     </div>
                   </>

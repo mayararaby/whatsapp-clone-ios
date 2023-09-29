@@ -1,0 +1,49 @@
+.Icons-Settings{
+  width: 20px;
+  margin: 5px;
+}
+
+.settings-me{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 80%;
+}
+
+.mySettings{
+  padding-inline: 10px;
+  margin: 10px;
+  border-radius: 7px;
+
+}
+
+.settingIcon{
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  margin-inline-end: 10px;
+}
+.settingIconSize{
+  width: 15px;
+  margin: 5px;
+}
+
+.setting-text{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.settings-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.settings-container-border{
+  margin-top: 10px;
+  border-top:  #E7E7E7 1px solid;
+
+}

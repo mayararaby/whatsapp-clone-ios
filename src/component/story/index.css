@@ -16,28 +16,33 @@
   background-color: #F2F1F6;
 }
 
-.myStory {
+.myStory,
+.mySettings {
   border-top: 1px solid #E8E8E8;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 .user-story-line,
-.myStory {
+.myStory,
+.mySettings {
   border-bottom: 1px solid #E8E8E8;
 
 }
 
-.myStory {
-  background-color: #fff;
+.myStory{
+  padding-inline: 20px;
+  height: 13%;
 
+}
+.myStory,
+.mySettings {
+  background-color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   align-content: center;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 13%;
-  padding-inline: 20px;
 }
 
 .recent-update-title,
@@ -73,15 +78,27 @@
   font-weight: 500;
   font-size: 1.1em;
 }
-
+.settings-info-container{
+  width: 100%;
+  margin-top: 10px;
+}
+.settings-info-container-top{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
 .status-info-container,
+.settings-info-container,
 .status-info-container-user {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: flex-start;
-  /* width: 100%; */
 
 }
 .status-info-container-user{
@@ -123,4 +140,8 @@
   bottom: 2px;
   right: 5px;
   width: 20px;
+}
+
+.settings-info-container-top-first-section{
+  display: flex;
 }
