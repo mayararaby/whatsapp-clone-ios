@@ -4,7 +4,7 @@
 
 you can find the deployed demo [here](https://whatsapp-clone-ios.vercel.app/)
 
-![Demo](Demo.mp4)
+![Demo](Demo.gif)
 
 ## How To run
 ### Via react

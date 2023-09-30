@@ -24,7 +24,7 @@ export const Settings = () => {
                     Zakria El-dardery
                   </span>
                   <span className='subStatusAdd'>
-                    Hey there ! iam using whatsapp
+                  A biology and French teacher until they get a French teacher &#128526;
                   </span>
               
               </span>
