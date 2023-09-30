@@ -1,4 +1,4 @@
-# WhatsApp 
+# Chatify 
 
 ## Just WhatsApp clone With IOS Appearance
 
